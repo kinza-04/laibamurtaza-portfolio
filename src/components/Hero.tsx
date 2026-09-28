@@ -17,7 +17,7 @@ export default function Hero() {
           </div>
         </motion.div>
         <motion.div initial={{ opacity: 0, scale: 0.8 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.8 }} className="relative">
-          <img src="/src/assets/images/Mypic.png" alt="Laiba Murtaza" className="rounded-3xl shadow-2xl shadow-[#D4AF37]/20 border border-white/10" />
+          <img src="/Mypic.png" alt="Laiba Murtaza" className="rounded-3xl shadow-2xl shadow-[#D4AF37]/20 border border-white/10" />
         </motion.div>
       </div>
     </section>
