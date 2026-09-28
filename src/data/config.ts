@@ -77,9 +77,8 @@ export const config = {
     }
   ],
   projects: [
-    { title: "Custom WordPress Experience", category: "WordPress Website", description: "Premium custom development." },
-    { title: "Modern Responsive Landing Page", category: "Elementor Landing Page", description: "High-converting design." },
-    { title: "Professional Business Website", category: "Business Website", description: "Corporate digital presence." },
-    { title: "Modern UI & Responsive Redesign", category: "Website Redesign", description: "Visual transformation." }
+    { title: "QMX Social", category: "AI Social Platform", description: "AI-powered social media solution.", url: "https://qmx-social.ai.studio/" },
+    { title: "Qasim AI Assistant", category: "AI Assistant", description: "Custom AI personal assistant.", url: "https://qasim-ai-asstiant.ai.studio/" },
+    { title: "iTech19 Agency", category: "Web Design Agency", description: "Professional web design services.", url: "https://www.itech19.com/web-design-agency.html" }
   ]
 };

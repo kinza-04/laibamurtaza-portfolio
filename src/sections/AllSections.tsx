@@ -94,7 +94,7 @@ export function Projects() {
             <span className="text-[#D4AF37] text-xs uppercase tracking-widest">{proj.category}</span>
             <h3 className="text-xl font-bold text-white mt-1">{proj.title}</h3>
             <p className="text-white/60 text-sm mt-2 mb-4">{proj.description}</p>
-            <button className="text-white font-medium hover:text-[#D4AF37] transition-colors">View Project →</button>
+            <a href={proj.url} target="_blank" rel="noopener noreferrer" className="text-white font-medium hover:text-[#D4AF37] transition-colors">View Project →</a>
           </div>
         ))}
       </div>
