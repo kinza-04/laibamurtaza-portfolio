@@ -109,7 +109,6 @@ export function Contact() {
       <div className="bg-[#1a1a1a] p-12 rounded-3xl border border-white/5 text-center">
         <p className="text-white/80 text-lg mb-8 max-w-lg mx-auto">Let's build something professional, modern and memorable.</p>
         <div className="flex flex-wrap justify-center gap-4">
-          <a href={`mailto:${config.email}`} className="flex items-center gap-2 px-6 py-3 bg-white text-black rounded-full"><Mail size={18} /> Email Me</a>
           <a href={config.whatsapp} target="_blank" className="flex items-center gap-2 px-6 py-3 bg-[#25D366] text-white rounded-full"><MessageCircle size={18} /> WhatsApp</a>
           <a href={config.linkedin} target="_blank" className="flex items-center gap-2 px-6 py-3 bg-[#0077b5] text-white rounded-full"><Linkedin size={18} /> LinkedIn</a>
         </div>
