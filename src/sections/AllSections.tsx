@@ -90,7 +90,6 @@ export function Projects() {
       <div className="grid md:grid-cols-2 gap-6">
         {config.projects.map((proj, i) => (
           <div key={i} className="bg-[#1a1a1a] p-6 rounded-2xl border border-white/5 hover:border-[#D4AF37]/30 transition-all">
-            <div className="h-48 bg-white/5 rounded-xl mb-4" />
             <span className="text-[#D4AF37] text-xs uppercase tracking-widest">{proj.category}</span>
             <a href={proj.url} target="_blank" rel="noopener noreferrer" className="block">
               <h3 className="text-xl font-bold text-white mt-1 hover:text-[#D4AF37] transition-colors">{proj.title}</h3>

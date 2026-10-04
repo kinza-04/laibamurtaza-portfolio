@@ -77,8 +77,9 @@ export const config = {
     }
   ],
   projects: [
-    { title: "QMX Social", category: "AI Social Platform", description: "AI-powered social media solution.", url: "https://qmx-social.ai.studio/" },
-    { title: "Qasim AI Assistant", category: "AI Assistant", description: "Custom AI personal assistant.", url: "https://qasim-ai-asstiant.ai.studio/" },
-    { title: "iTech19 Agency", category: "Web Design Agency", description: "Professional web design services.", url: "https://www.itech19.com/web-design-agency.html" }
+    { title: "Sellings Hub", category: "E-commerce Platform", description: "Modern e-commerce solutions.", url: "https://sellingshub.com/" },
+    { title: "AM365", category: "Business Services", description: "Professional business consulting.", url: "https://www.am365.se/" },
+    { title: "Hedayat Law", category: "Legal Services", description: "Legal representation and services.", url: "https://www.hedayatilaw.com/" },
+    { title: "Albrecht Law Firm", category: "Legal Services", description: "Professional legal firm website.", url: "https://albrechtlawfirm.com" }
   ]
 };
