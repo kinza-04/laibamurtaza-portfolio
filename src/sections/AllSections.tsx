@@ -92,7 +92,9 @@ export function Projects() {
           <div key={i} className="bg-[#1a1a1a] p-6 rounded-2xl border border-white/5 hover:border-[#D4AF37]/30 transition-all">
             <div className="h-48 bg-white/5 rounded-xl mb-4" />
             <span className="text-[#D4AF37] text-xs uppercase tracking-widest">{proj.category}</span>
-            <h3 className="text-xl font-bold text-white mt-1">{proj.title}</h3>
+            <a href={proj.url} target="_blank" rel="noopener noreferrer" className="block">
+              <h3 className="text-xl font-bold text-white mt-1 hover:text-[#D4AF37] transition-colors">{proj.title}</h3>
+            </a>
             <p className="text-white/60 text-sm mt-2 mb-4">{proj.description}</p>
             <a href={proj.url} target="_blank" rel="noopener noreferrer" className="text-white font-medium hover:text-[#D4AF37] transition-colors">View Project →</a>
           </div>
